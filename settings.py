@@ -86,7 +86,6 @@ THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.filters',
 )
 FILER_CANONICAL_URL = 'sharing/'
-FILER_IMAGE_MODEL = 'cms_plugins.CustomImage'
 DJANGOCMS_BOOTSTRAP4_TAG_CHOICES = ['div', 'section', 'article', 'header', 'footer', 'aside']
 DJANGOCMS_BOOTSTRAP4_GRID_SIZE = 12
 DJANGOCMS_BOOTSTRAP4_GRID_CONTAINERS = (
