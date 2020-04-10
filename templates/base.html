@@ -32,16 +32,16 @@
 <body>
 <!-- Django CMS admin menu only seen by those logged in or ?edit=true -->
 {% cms_toolbar %}
-<div class="row">
+<div class="container-fluid">
     <!-- Allow visually impaired to skip menu and read the page -->
     <a href="#main-content" class="sr-only">Skip to main content</a>
     <div id="masthead" class="row">
-        <div id="site-logo" class="ml-4 my-2 col-12">
+        <div id="site-logo" class="col-12">
             <!-- static placeholder allows content added in cms to show same on every page -->
             {% static_placeholder "masthead" %}
         </div>
         <!-- your cms pages menu for public -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success text-white">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
