@@ -77,8 +77,6 @@ CMS_TEMPLATES = [
     ('sidebar-right.html', 'Sidebar Right'),
     ('home.html', 'Home page template'),
 ]
-CMS_PAGE_WIZARD_DEFAULT_TEMPLATE = "fullwidth.html"
-CMS_PAGE_WIZARD_CONTENT_PLACEHOLDER = "content"
 THUMBNAIL_HIGH_RESOLUTION = True
 THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.colorspace',
