@@ -71,11 +71,11 @@ CMS_TOOLBAR_ANONYMOUS_ON = False
 CMS_DEFAULT_X_FRAME_OPTIONS = constants.X_FRAME_OPTIONS_SAMEORIGIN
 CMS_TEMPLATES = [
     ('fullwidth.html', 'Fullwidth'),
+    ('full_width_banner.html', 'Fullwidth with Jumbotron'),
     ('fullwidth-narrow-margins.html', 'Fullwidth Narrow Margins'),
     ('sidebar-left.html', 'Sidebar Left'),
     ('sidebar-right.html', 'Sidebar Right'),
     ('home.html', 'Home page template'),
-    ('template_blog.html', 'Blog Template'),
 ]
 CMS_PAGE_WIZARD_DEFAULT_TEMPLATE = "fullwidth.html"
 CMS_PAGE_WIZARD_CONTENT_PLACEHOLDER = "content"
