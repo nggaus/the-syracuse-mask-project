@@ -41,7 +41,7 @@
             {% static_placeholder "masthead" %}
         </div>
         <!-- your cms pages menu for public -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success text-white">
+        <nav class="navbar navbar-expand-lg col-12 navbar-dark bg-success text-white">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
         </nav>
     </div>
     <!-- Where all templates fill in page content you provide in cms -->
-    <main id="main-content" role="main" class="row">
+    <main id="main-content" role="main" class="row my-5">
         {% block content %}
         {% endblock %}
     </main>
