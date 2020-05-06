@@ -1,4 +1,0 @@
-/* Give images in filer a reasonable sized thumbnail */
-.filebrowser .navigator-table .column-icon img {
-    width: 100px !important;
-}
